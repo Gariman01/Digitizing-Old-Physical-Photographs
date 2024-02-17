@@ -9,7 +9,7 @@ Our approach can broadly be divided into four steps - Image Denoising, Scratch D
 
 1. Image Denoising
 
-   We perform image denoising by using fastN1MeanDenoising - search for all the pixels that really resemble the pixel one wants to denoise. Denoising is then done by computing the average colour of these most resembling pixels. The resemblance is evaluated by comparing a whole window around each pixel, and not just the color.
+   We perform image denoising by using fastN1MeanDenoising - search for all the pixels that really resemble the pixel one wants to denoise. Denoising is then done by computing the average colour of these most resembling pixels. The resemblance is evaluated by comparing a whole window around each pixel, and not just the colour.
 
    ![Original vs Denoised Image](assets/original_and_denoised%20image.png)
 
